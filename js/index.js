@@ -31,7 +31,6 @@ function getBooksFromLocalStorage() {
 }
 getBooksFromLocalStorage();
 
-// IMPLEMENT BOOKS
 // ADD BOOK
 function addBook(e) {
     bookCollection.books.push({ title: bookTitle.value, author: bookAuthor.value });
@@ -47,3 +46,13 @@ if (document.querySelector('.add')) {
     addBtn.addEventListener('click', (e) => addBook(e));
 }
 
+// REMOVE BOOKS
+function deleteBook(el) {
+    if(el.classList.contains('delete')){
+        el.parentElement.remove();
+    }
+ }
+ 
+ document.querySelector('#list-books').addEventListener('click', (e)=>{
+     deleteBook(e.target)
+ })
