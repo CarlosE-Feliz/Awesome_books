@@ -19,22 +19,17 @@ function getBooksFromLocalStorage() {
             let li = document.createElement('li');
             li.innerHTML = '<div class="book-info">'
             + '<p>'
-            + `<span class="book-title">${bookCollection.books[i].title}</span>  by`
+            + `<span class="book-title">${bookCollection.books[i].title}</span> by `
             + `<span class="book-author">${bookCollection.books[i].author}</span>`
             +'</p>'
             +'</div>'
-            + '<button type="button" id="removeButton">Remove</button>';
+            + '<button type="button" id="removeButton" class="delete">Remove</button>';
             bookListWrap.appendChild(li);
             console.log(bookCollection.books)
         }
     }
 }
 getBooksFromLocalStorage();
-
-// REMOVE BOOK COLLECTION FROM LOCALSTORAGE
-function removeBookFromLocalStorage() {
-
-}
 
 // IMPLEMENT BOOKS
 // ADD BOOK
