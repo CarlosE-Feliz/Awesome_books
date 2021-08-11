@@ -62,7 +62,7 @@ You can also check against Webhint:
 npx hint --telemetry=off .
 ```
 
-## 👤 Author
+## 👤 Authors
 
 - Github: [@rotimiazeez](https://github.com/rotimiazeez), [@xJokeer](https://github.com/xJokeer)
 - Twitter: [@harzeyzh](https://twitter.com/Harzeyzh)
