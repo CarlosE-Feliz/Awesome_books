@@ -9,7 +9,7 @@
 .book-ul {
   list-style: none;
   border: #000 1px solid;
-  background-image: url(/media/descarga.png);
+  background-image: url(../media/descarga.png);
 }
 
 .book-list {

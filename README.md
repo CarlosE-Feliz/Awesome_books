@@ -16,7 +16,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Link]()
+[Live Link](https://xjokeer.github.io/Awesome_books/)
 
 ## Getting Started
 
