@@ -7,21 +7,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="css/styles.css" />
   <script src="js/index.js" defer></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
   <title>Awesome books</title>
 </head>
 
 <body>
 
-  <main>
+  <main class="main">
     <h1>All Awesome Books</h1>
     <ul class="book-ul" id="list-books">
-
     </ul>
-    <form action="#">
 
-      <input type="text" name="title" id="title" placeholder="title" required>
+    <hr>
 
-      <input type="text" name="author" id="author" placeholder="author" required>
+    <h1>Add a new book</h1>
+    <form action="#" class="d-flex form">
+      <input type="text" name="title" id="title" class="input" placeholder="title" required>
+
+      <input type="text" name="author" id="author" class="input" placeholder="author" required>
 
       <button type="submit" class="add">Add</button>
     </form>
@@ -30,9 +34,9 @@
 
 
 
-  <footer>
+  <!-- <footer>
     <p>Copyright&copy;</p>
-  </footer>
+  </footer> -->
 
 
 </body>

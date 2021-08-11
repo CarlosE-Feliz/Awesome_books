@@ -16,7 +16,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Link]()
+[Live Link](https://xjokeer.github.io/Awesome_books/)
 
 ## Getting Started
 
@@ -62,7 +62,7 @@ You can also check against Webhint:
 npx hint --telemetry=off .
 ```
 
-## 👤 Author
+## 👤 Authors
 
 - Github: [@rotimiazeez](https://github.com/rotimiazeez), [@xJokeer](https://github.com/xJokeer)
 - Twitter: [@harzeyzh](https://twitter.com/Harzeyzh)

@@ -23,8 +23,8 @@ document.addEventListener('DOMContentLoaded', () => {
     implementBooks = () => {
       bookListWrap.innerHTML = '';
       this.booksCollection.books.forEach((book, index) => {
-        bookListWrap.innerHTML += `<li>
-            <div class="book-info">
+        bookListWrap.innerHTML += `<li class = "d-flex book-list row-11">
+            <div class="book-info col-7">
               <p><span class="book-title">"${book.title}"</span> by <span class="book-author">${book.author}</span></p>
             </div>
             <button type="button" class="removeBtn" data-key=${index}>Remove</button>

@@ -8,4 +8,50 @@
 
 .book-ul {
   list-style: none;
+  border: #000 1px solid;
+  background-image: url(../media/descarga.png);
+}
+
+.book-list {
+  border-bottom: #000 1px solid;
+  margin: 25px;
+  padding: 12px;
+  font-size: 19.9px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: rgb(20, 20, 20);
+  text-shadow: #fff 2px 2px;
+  justify-content: space-between;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.removeBtn {
+  margin: 12px;
+  width: 90px;
+  background: bisque;
+  text-shadow: #fff 2px 2px;
+}
+
+hr {
+  width: 250px;
+  height: 3px;
+  background: #000;
+}
+
+.form {
+  flex-direction: column;
+}
+
+.input {
+  margin: 5px 12px;
+}
+
+.add {
+  width: 30%;
+  margin: 2px 15px;
+  align-self: flex-end;
 }
