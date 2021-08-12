@@ -14,7 +14,7 @@
 
 .book-list {
   border-bottom: #000 1px solid;
-  margin: 25px ;
+  margin: 25px;
   padding: 12px;
   font-size: 19.9px;
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -24,7 +24,7 @@
 }
 
 .main {
-  align-items: center
+  align-items: center;
 }
 
 .d-block {
@@ -60,7 +60,7 @@ hr {
 }
 
 /* NavBar */
-.navbar{
+.navbar {
   border: #000 2px solid;
 }
 
@@ -96,7 +96,7 @@ hr {
 .section-books h1 {
   align-self: center;
   margin: 35px 25px;
-  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .section-books {
@@ -109,7 +109,7 @@ hr {
 .addnewbook h1 {
   align-self: center;
   margin: 35px 25px;
-  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   position: relative;
   left: 49px;
 }
@@ -124,7 +124,7 @@ hr {
 .contact_us h1 {
   align-self: center;
   margin: 35px 25px;
-  font-family:Georgia, 'Times New Roman', Times, serif; 
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .contact_us p {
@@ -135,7 +135,7 @@ hr {
 }
 
 .contacts {
-align-self: center;
+  align-self: center;
 }
 
 .contacts li {
@@ -147,6 +147,7 @@ align-self: center;
 .copy {
   margin: 35px 25px;
 }
+
 /* clock */
 .clockdate-wrapper {
   display: flex;
