@@ -12,31 +12,60 @@
   <title>Awesome books</title>
 </head>
 
-<body>
+<body onload="startTime()">
+  <nav class="navbar container">
+    <p>Awesome book</p>
+    <ul class="d-flex nav-list">
+      <li class="nav-item" id="list"><a>List</a></li>
+      <li class="nav-item" id="add_new"><a>Add new</a></li>
+      <li class="nav-item" id="contact"><a>Contact</a></li>
+    </ul>
+  </nav>
 
-  <main class="main">
-    <h1>All Awesome Books</h1>
+  <div class="clockdate-wrapper">
+    <div id="clock" class="clock"></div>
+    <div id="date" class="clock"></div>
+</div>
+
+  <main class="main d-flex column">
+    <section class="section-books d-flex column d-none" id="list_">
+      <h1>All Awesome Books</h1>
     <ul class="book-ul" id="list-books">
     </ul>
+    </section>
 
-    <hr>
 
-    <h1>Add a new book</h1>
-    <form action="#" class="d-flex form">
-      <input type="text" name="title" id="title" class="input" placeholder="title" required>
+    <section id="addNew" class="addnewbook">
+      <h1>Add a new book</h1>
+      <form action="#" class="d-flex column">
+        <input type="text" name="title" id="title" class="input" placeholder="title" required>
+  
+        <input type="text" name="author" id="author" class="input" placeholder="author" required>
+  
+        <button type="submit" class="add">Add</button>
+      </form>
+    </section>
 
-      <input type="text" name="author" id="author" class="input" placeholder="author" required>
 
-      <button type="submit" class="add">Add</button>
-    </form>
+    <section id="contact_" class="contact_us d-flex d-none column">
+      <h1>Contact Information</h1>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim, fuga vero quod consectetur exercitationem dicta eaque voluptatibus eveniet sunt quibusdam perspiciatis 
+      expedita sapiente modi, numquam veniam in, nam ea! Quibusdam.</p>
+      <ul class="contacts">
+        <li>Our e-mail: emails</li>
+        <li>our github: profiles</li>
+        <li>Linkedin: ------</li>
+      </ul>
+
+    </section>
   </main>
 
 
 
 
-  <!-- <footer>
+  <footer class="copy">
     <p>Copyright&copy;</p>
-  </footer> -->
+  </footer>
 
 
 </body>
