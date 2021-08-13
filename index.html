@@ -10,9 +10,11 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
   <title>Awesome books</title>
+  <!-- Luxon -->
+  <script src="https://moment.github.io/luxon/global/luxon.js"></script>
 </head>
 
-<body onload="startTime()">
+<body>
   <nav class="navbar container">
     <p>Awesome book</p>
     <ul class="d-flex nav-list">
@@ -22,16 +24,15 @@
     </ul>
   </nav>
 
-  <div class="clockdate-wrapper">
-    <div id="clock" class="clock"></div>
-    <div id="date" class="clock"></div>
-</div>
+  <div class="date">
+    <p id="render-date" class="fs-6 date position-absolute"></p>
+  </div>
 
   <main class="main d-flex column">
     <section class="section-books d-flex column d-none" id="list_">
       <h1>All Awesome Books</h1>
-    <ul class="book-ul" id="list-books">
-    </ul>
+      <ul class="book-ul" id="list-books">
+      </ul>
     </section>
 
 
@@ -39,9 +40,9 @@
       <h1>Add a new book</h1>
       <form action="#" class="d-flex column">
         <input type="text" name="title" id="title" class="input" placeholder="title" required>
-  
+
         <input type="text" name="author" id="author" class="input" placeholder="author" required>
-  
+
         <button type="submit" class="add">Add</button>
       </form>
     </section>
@@ -49,8 +50,9 @@
 
     <section id="contact_" class="contact_us d-flex d-none column">
       <h1>Contact Information</h1>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim, fuga vero quod consectetur exercitationem dicta eaque voluptatibus eveniet sunt quibusdam perspiciatis 
-      expedita sapiente modi, numquam veniam in, nam ea! Quibusdam.</p>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim, fuga vero quod consectetur exercitationem dicta
+        eaque voluptatibus eveniet sunt quibusdam perspiciatis
+        expedita sapiente modi, numquam veniam in, nam ea! Quibusdam.</p>
       <ul class="contacts">
         <li>Our e-mail: emails</li>
         <li>our github: profiles</li>
@@ -67,7 +69,7 @@
     <p>Copyright&copy;</p>
   </footer>
 
-
+  <script src="luxon.js"></script>
 </body>
 
 </html>

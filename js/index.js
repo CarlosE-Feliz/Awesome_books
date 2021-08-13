@@ -102,36 +102,3 @@ document.getElementById('contact').addEventListener('click', () => {
   document.getElementById('contact_').classList.remove('d-none');
   document.getElementById('addNew').classList.add('d-none');
 });
-
-// time
-function checkTime(i) {
-  if (i < 10) {
-    i = `0${i}`;
-  }
-  return i;
-}
-function startTime() {
-  const today = new Date();
-  let hr = today.getHours();
-  let min = today.getMinutes();
-  let sec = today.getSeconds();
-  hr = (hr === 0) ? 12 : hr;
-  hr = (hr > 10) ? hr + 0 : hr;
-  hr = checkTime(hr);
-  min = checkTime(min);
-  sec = checkTime(sec);
-  document.getElementById('clock').innerHTML = `${hr}:${min}:${sec}`;
-  const months = ['January', 'February', 'March', 'April', 'May', 'Jun', 'July', 'August', 'September', 'October', 'November', 'December'];
-  const days = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
-  const curWeekDay = days[today.getDay()];
-  const curDay = today.getDate();
-  const curMonth = months[today.getMonth()];
-  const curYear = today.getFullYear();
-  const date = `${curWeekDay},${curDay} ${curMonth} ${curYear}`;
-  document.getElementById('date').innerHTML = date;
-
-  // eslint-disable-next-line no-unused-vars
-  const time = setTimeout(() => { startTime(); }, 500);
-}
-
-startTime();
