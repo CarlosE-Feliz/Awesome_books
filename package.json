@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "![](https://img.shields.io/badge/Microverse-blueviolet)",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "luxon": "^2.0.2"
+  },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "eslint": "^7.31.0",

@@ -82,3 +82,23 @@ document.addEventListener('DOMContentLoaded', () => {
     collection.removeBook(button);
   }));
 });
+
+// website with navigation
+
+document.getElementById('list').addEventListener('click', () => {
+  document.getElementById('list_').classList.remove('d-none');
+  document.getElementById('contact_').classList.add('d-none');
+  document.getElementById('addNew').classList.add('d-none');
+});
+
+document.getElementById('add_new').addEventListener('click', () => {
+  document.getElementById('list_').classList.add('d-none');
+  document.getElementById('contact_').classList.add('d-none');
+  document.getElementById('addNew').classList.remove('d-none');
+});
+
+document.getElementById('contact').addEventListener('click', () => {
+  document.getElementById('list_').classList.add('d-none');
+  document.getElementById('contact_').classList.remove('d-none');
+  document.getElementById('addNew').classList.add('d-none');
+});
